@@ -9,13 +9,16 @@
 
 const { firstName, lastName, birthYear, thisYear } = require("./joinStrings-example")
 
+/*
+You can use ${FullName} or + fullname + 
+*/
 
 // Add your code right below, good luck!
 const fullName = (firstName + " " + lastName);
 const age = (thisYear - birthYear);
 
 
-const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
+const greeting = "Hello! My name is" + fullName + " and I am " + age + " years old."
 
 console.log(greeting)
 
